@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/colorBg">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/delivery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Hot and Fresh at You Doorstep"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="50dp"
+        android:text="Track your burger as it's prepared and delivered — fast, hot, and on time."
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBg"
+        android:rotationY="180"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/back" />
+
+</LinearLayout>

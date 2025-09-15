@@ -1,0 +1,54 @@
+package com.example.daddysburgers
+
+import android.content.Intent
+import android.os.Bundle
+import android.view.View
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+
+class OrderListActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.orderlist)
+        
+        setupBackButton()
+        setupOrderDetailsNavigation()
+        setupBottomNavigation()
+    }
+    
+    private fun setupBackButton() {
+        findViewById<ImageView>(R.id.btnBack).setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+    }
+    
+    private fun setupOrderDetailsNavigation() {
+
+        findViewById<ImageView>(R.id.orderdetails).setOnClickListener {
+            val intent = Intent(this, OrderDetailsActivity::class.java)
+            startActivity(intent)
+        }
+    }
+    
+    private fun setupBottomNavigation() {
+        // Cart
+        findViewById<View>(R.id.navCart).setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
+        
+        // menu
+        findViewById<View>(R.id.navHome).setOnClickListener {
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        
+        // Profile
+        findViewById<View>(R.id.navProfile).setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+}

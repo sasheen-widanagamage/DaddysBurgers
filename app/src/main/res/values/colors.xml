@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 60% -->
+    <color name="colorBg">#0B0B0C</color>
+    <color name="colorSurface">#17191B</color>
+
+    <!-- 30% -->
+    <color name="colorAccent">#FFC400</color>
+    <color name="colorAccentMuted">#FFD54F</color>
+    <color name="colorOnAccent">#111111</color>
+
+    <!-- 10% -->
+    <color name="colorTextPrimary">#FFFFFFFF</color>
+    <color name="colorTextSecondary">#B0B0B0</color>
+</resources>

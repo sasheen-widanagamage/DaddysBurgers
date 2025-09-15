@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="@color/colorSurface">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:tint="@color/colorAccent"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Privacy Policy"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="512dp"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp"
+            android:padding="20dp"
+            android:text="@string/we_value_your_privacy_our_app_collects_only_the_information_necessary_to_process_your_orders_and_improve_your_experience_such_as_your_name_contact_details_and_delivery_address_we_do_not_share_your_personal_information_with_third_parties_without_your_consent_all_payment_and_user_data_are_protected_with_industry_standard_encryption_by_using_this_app_you_agree_to_our_use_of_your_information_in_accordance_with_this_policy_for_any_questions_contact_us_at_daddysburgers_gmail_com"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
