@@ -1,6 +1,6 @@
 Daddy’s Burgers 🍔 (Android)
 
-A polished, Kotlin-based Android app prototype for a burger delivery experience — from onboarding and browsing the menu to checkout, order tracking, and profile management.
+Kotlin-based Android app prototype for a burger delivery experience — from onboarding and browsing the menu to checkout, order tracking, and profile management.
 
 
 🧭 App Overview
